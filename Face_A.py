@@ -13,7 +13,7 @@ face_cascade = cv.CascadeClassifier('X.xml')
 ###############################################################################
 bridge = CvBridge()
 ###############################################################################
-cap = cv.VideoCapture('video.mp4')
+cap = cv.VideoCapture('video.MOV')
 ###############################################################################
 if not cap.isOpened():
     print("can not open video file")
